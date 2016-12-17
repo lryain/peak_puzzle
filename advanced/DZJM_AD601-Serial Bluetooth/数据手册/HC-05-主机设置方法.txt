@@ -1,0 +1,24 @@
+HC-05 无线蓝牙模块
+
+设置成 主机模式方法：
+
+MODE=HIGH
+
+AT+ORGL
+
+AT+ROLE=1
+
+AT+CMODE=1
+
+MODE=LOW
+
+AT+INIT
+
+到这里 就已经成主机模式 
+并且自动搜寻从机模块。
+
+
+
+AT+INQ
+
+AT+LINK=2014,4,282949
